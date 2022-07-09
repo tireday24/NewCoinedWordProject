@@ -26,6 +26,8 @@ class NewlyCoinedWordViewController: UIViewController {
         buttonDesign(thirdButton, buttonTitle: "만반잘부", buttonBackgroundColor: .white)
         buttonDesign(fourthButton, buttonTitle: "꾸안꾸", buttonBackgroundColor: .white)
         //buttonLoopDesign()
+        
+        
 
         
     }
@@ -37,6 +39,7 @@ class NewlyCoinedWordViewController: UIViewController {
         wordTextField.attributedPlaceholder = NSAttributedString(string: "입력 해주세요!", attributes: [NSAttributedString.Key.foregroundColor : UIColor.black])
         wordTextField.textAlignment = .left
         wordTextField.layer.borderColor = UIColor.black.cgColor
+        
     }
 
 //    func buttonLoopDesign() {

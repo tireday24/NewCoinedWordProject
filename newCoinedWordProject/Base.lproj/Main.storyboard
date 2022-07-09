@@ -16,12 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPI-j9-LYN">
-                                <rect key="frame" x="20" y="64" width="340" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPI-j9-LYN">
+                                <rect key="frame" x="20" y="64" width="332" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="340" id="A6U-wr-Phc"/>
+                                    <constraint firstAttribute="height" constant="36" id="Zrw-TO-gR3"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="330" id="jhL-8J-W7h"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -89,16 +90,16 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="yr1-AN-C05" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="0JU-wb-hvA"/>
+                            <constraint firstItem="TPI-j9-LYN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4X2-qP-W0D"/>
                             <constraint firstItem="2xh-FF-Yj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AbD-Y0-vrC"/>
                             <constraint firstItem="2xh-FF-Yj4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="MUN-zK-anp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8hI-2q-zOK" secondAttribute="trailing" constant="20" id="NhM-ET-FDT"/>
                             <constraint firstItem="mcM-1O-on6" firstAttribute="width" relation="greaterThanOrEqual" secondItem="yr1-AN-C05" secondAttribute="height" multiplier="60:31" id="Zgh-dC-Tbu"/>
+                            <constraint firstItem="TPI-j9-LYN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hE4-LO-bbs"/>
                             <constraint firstItem="8hI-2q-zOK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mqz-VE-sHl"/>
-                            <constraint firstItem="TPI-j9-LYN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mtb-vM-LJ7"/>
                             <constraint firstItem="yr1-AN-C05" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132.5" id="nid-Vl-eKI"/>
                             <constraint firstItem="wcu-Kr-ltZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="pzw-Ma-FMf"/>
                             <constraint firstItem="wcu-Kr-ltZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="tKl-cg-OId"/>
-                            <constraint firstItem="TPI-j9-LYN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="vlR-yx-0JD"/>
                             <constraint firstItem="mcM-1O-on6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="216.5" id="xMG-Ei-Qpn"/>
                             <constraint firstItem="mcM-1O-on6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="yCu-WF-GSx"/>
                         </constraints>
