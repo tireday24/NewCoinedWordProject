@@ -31,34 +31,19 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xh-FF-Yj4">
-                                <rect key="frame" x="20" y="106" width="48" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="NAw-N9-yCG"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="106" width="36.5" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="ㅇ"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcu-Kr-ltZ">
-                                <rect key="frame" x="76" y="106" width="48.5" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="48" id="nzd-Cy-Dam"/>
-                                </constraints>
+                                <rect key="frame" x="64.5" y="106" width="48.5" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="실매"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr1-AN-C05">
-                                <rect key="frame" x="132.5" y="106" width="76" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="nAf-K9-mnD"/>
-                                </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="만반잘부"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcM-1O-on6">
-                                <rect key="frame" x="216.5" y="106" width="60.5" height="31"/>
+                                <rect key="frame" x="205" y="106" width="60.5" height="31"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="꾸안꾸"/>
@@ -84,24 +69,30 @@
                                     <action selector="readingGlassesButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgQ-nR-jIg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr1-AN-C05">
+                                <rect key="frame" x="120.5" y="106" width="72.5" height="31"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="만반잘부"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="yr1-AN-C05" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="0JU-wb-hvA"/>
+                            <constraint firstItem="wcu-Kr-ltZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="2IG-fu-9Cc"/>
                             <constraint firstItem="TPI-j9-LYN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4X2-qP-W0D"/>
-                            <constraint firstItem="2xh-FF-Yj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AbD-Y0-vrC"/>
-                            <constraint firstItem="2xh-FF-Yj4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="MUN-zK-anp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="mcM-1O-on6" secondAttribute="trailing" constant="148.5" id="6oS-9P-qEb"/>
+                            <constraint firstItem="yr1-AN-C05" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="86Q-Dp-974"/>
+                            <constraint firstItem="yr1-AN-C05" firstAttribute="leading" secondItem="wcu-Kr-ltZ" secondAttribute="trailing" constant="7.5" id="EcN-mr-VPw"/>
+                            <constraint firstItem="2xh-FF-Yj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NS4-n4-UF0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8hI-2q-zOK" secondAttribute="trailing" constant="20" id="NhM-ET-FDT"/>
-                            <constraint firstItem="mcM-1O-on6" firstAttribute="width" relation="greaterThanOrEqual" secondItem="yr1-AN-C05" secondAttribute="height" multiplier="60:31" id="Zgh-dC-Tbu"/>
+                            <constraint firstItem="mcM-1O-on6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="Qje-SP-jJM"/>
+                            <constraint firstItem="2xh-FF-Yj4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="TMv-6Y-wiV"/>
+                            <constraint firstItem="mcM-1O-on6" firstAttribute="leading" secondItem="yr1-AN-C05" secondAttribute="trailing" constant="12" id="VoZ-n3-Eiu"/>
+                            <constraint firstItem="wcu-Kr-ltZ" firstAttribute="leading" secondItem="2xh-FF-Yj4" secondAttribute="trailing" constant="8" symbolic="YES" id="dm3-7b-j1J"/>
                             <constraint firstItem="TPI-j9-LYN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hE4-LO-bbs"/>
                             <constraint firstItem="8hI-2q-zOK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mqz-VE-sHl"/>
-                            <constraint firstItem="yr1-AN-C05" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132.5" id="nid-Vl-eKI"/>
-                            <constraint firstItem="wcu-Kr-ltZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="pzw-Ma-FMf"/>
-                            <constraint firstItem="wcu-Kr-ltZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="tKl-cg-OId"/>
-                            <constraint firstItem="mcM-1O-on6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="216.5" id="xMG-Ei-Qpn"/>
-                            <constraint firstItem="mcM-1O-on6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="yCu-WF-GSx"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="4gp-0a-ro9" appends="YES" id="Xjk-1p-U54"/>

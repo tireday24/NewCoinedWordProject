@@ -21,8 +21,8 @@ class NewlyCoinedWordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         designTextField()
-        buttonDesign(firstButton, buttonTitle: "윰차", buttonBackgroundColor: .white)
-        buttonDesign(secondButton, buttonTitle: "실매", buttonBackgroundColor: .white)
+        buttonDesign(firstButton, buttonTitle: "11111111111", buttonBackgroundColor: .white)
+        buttonDesign(secondButton, buttonTitle: "11111111", buttonBackgroundColor: .white)
         buttonDesign(thirdButton, buttonTitle: "만반잘부", buttonBackgroundColor: .white)
         buttonDesign(fourthButton, buttonTitle: "꾸안꾸", buttonBackgroundColor: .white)
         //buttonLoopDesign()
@@ -58,6 +58,7 @@ class NewlyCoinedWordViewController: UIViewController {
         buttonName.layer.borderWidth = 1
         buttonName.backgroundColor = bgcolor
         buttonName.layer.cornerRadius = 8
+        
 
         
     }
