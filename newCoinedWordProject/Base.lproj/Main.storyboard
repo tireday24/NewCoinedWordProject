@@ -22,7 +22,7 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Zrw-TO-gR3"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="330" id="jhL-8J-W7h"/>
+                                    <constraint firstAttribute="width" constant="330" id="jhL-8J-W7h"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
