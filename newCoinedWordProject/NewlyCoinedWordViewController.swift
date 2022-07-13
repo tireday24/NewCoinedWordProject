@@ -19,7 +19,7 @@ enum bottomMenuText: String, CaseIterable {
     case 버카충 = "버스카드 충전"
     case 삼귀자 = "사귀기 전 썸 단계"
 }
-
+var name = "commit 되는지 확인"
 /*
  let xyz = bottomMenuText.실매
  label 의 텍스트를 xyz 의 로우밸류로 넣기
